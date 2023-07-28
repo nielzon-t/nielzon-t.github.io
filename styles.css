@@ -1,132 +1,68 @@
 html {
-    font-size: 16px;
-    font-family: Arial;
-    background-color: #FDF2E6;
-    display: block;
-    line-height: 1.5;
+    font-size: 16;
+    background-color: ghostwhite;
+    font-family: Outfit, sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
+
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
   }
-  
-  
-  
-  em {
-    font-size: 1.1em
-  }
-  
-  body {
-    display: block;
-    margin: 8px;
-  }
-  #navbar {
-    position: fixed;
-    min-width: 290px;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 100%;
-    border-right: solid;
-    border-color: #0c4e96;
-  
-  }
-  nav {
-    display: block;
-  }
-  
-  header {
-    color: black;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.9em;
-  }
-  
-  #navbar ul {
-    height: 88%;
-    padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-  
-  }
-  
-  #navbar li {
-    border-top: 1px solid;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    border-color: #0c4e96;
-  }
-  
-  li {
-    display: list-item;
-  
-  }
-  
-  #navbar a {
-    display: block;
-    padding: 30px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-  }
-  
-  ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-  }
-  
-  #main-doc {
-    position: absolute;
-    margin-left: 310px;
-    margin-right: 30px;
-    width: auto;
-  }
-  
-  main header {
-  
-    text-align: left;
-    margin-left: -5px
-  }
-  
-  h3 {
-    font-weight: bold;
-    font-style: 
-  }
-  
-  code {
-    font-family: arial;
-  }
-  
-  nav header {
-    text-align: left;
-    margin-left: 25px;
-    letter-spacing: 1px;
-  }
-  
-  #win::after {
-    content: "(in)";
-    color: black;
-    font-size: .3em;
-    position: absolute;
-    top: 42px;
-    left: 47px
+
+
+.outerbox {
+    width: 85%;
+    background-color: hsl(212, 45%, 89%);
+    margin: auto;
+    display: flex;
+    min-width: 300px;
+    margin-top: 1.5em;
+    box-shadow: -5px 10px 10px hsl(220, 15%, 55%);
+    height: 90vh;
+    min-height: 400px;
     
-  }
-  
-  #pyth::after {
-    content: "(yth)";
-    color: black;
-    font-size: .3em;
-    position: absolute;
-    top: 42px;
-    margin: 0;
-    left: 168px;
-  }
-  
-  @media (min-width: 10000px) {
-    body {
-      width: 100%;
-    }
-  }
+    
+
+}
+
+.innerbox {
+    max-width: 30%;
+    min-width: 275px;
+    height: 60vh;
+    min-height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -0.5px 1px 3px hsl(220, 15%, 55%);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: 700;
+    text-align: center;
+    text-justify: auto;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    text-align: center;
+    text-justify: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
